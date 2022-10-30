@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World of Work</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&amp;subset=cyrillic-ext">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/help.css">
+    
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="container">
+                <ul class="menu">
+                    <li class="menu_item"><a href="#" class="menu_link">Logo</a></li>
+                    <li class="menu_item"><a href="../src/main.html" class="menu_link">Главная</a></li>
+                    <li class="menu_item"><a href="../src/help.html" class="menu_link">Помощь</a></li>
+                    <li class="menu_item"><a href="index.html" class="main_link">Выйти</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="write">
+        <div class="container">
+            <h1>Пишите нам!</h1>
+            <div class="write_text">Мы ценим ваше время и стремимся максимально быстро и качественно предоставить ответ на ваш вопрос.<br>
+            </div>
+            <form class="guruweba_example_form" name="feedback" method="POST">
+                <div class="guruweba_example_infofield">Кому вы адресуете своё сообщение</div>
+                <select name="theme" required="required">
+                  <option value="">Выберите вариант</option>
+                  <option>Техническая поддержка</option>
+                  <option>Отдел маркетинга и рекламы</option>
+                  <option>Отдел продаж</option>
+                  <option>Отдел контроля качества</option>
+                </select>
+                <div>Тема</div>
+                <input type="text" name="topic" required="required">                
+                <div>Сообщение</div>
+                <textarea name="message"></textarea>                
+                <div>Ваше имя</div>
+                <input type="text" name="name" required="required">
+
+                <div>Ваш email</div>
+                <input type="email" name="email" required="required">
+
+                <!-- <a href="index.html"><input type="submit" name="submit_btn" class="submit_btn" value="Отправить"></a> -->
+                <a href="main.html" class="submit_btn">Отправить</a>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer_wrapper">
+                <div class="footer_social">
+                    <a href="#" class="footer_social_item"><span class="icon-facebook"></span></a>
+                    <a href="#" class="footer_social_item"><span class="icon-twitter"></span></a>
+                    <a href="https://www.instagram.com/" class="footer_social_item ins"><span class="icon-instagram"></span></a>
+                </div>
+                <div class="container">
+                    <div class="footer_links">
+                        <div class="footer_links_main">
+                            <a href="main.html">на главную<br></a>
+                            <a href="all_vacan.html">вакансии<br></a>
+                            <a href="professions.html">Работа по профессиям<br></a>
+                        </div>
+                        <div class="footer_links_sub">
+                            <a href="software.html">Требования к ПО</a>
+                            <a href="help.html">помощь</a>
+                            <a href="devolopers.html">разработчики</a>
+                            <a href="about.html">о компании</a>
+                        </div> 
+                    </div>                    
+                </div>
+        </div>
+    </footer>
+
+</body>
+</html>
