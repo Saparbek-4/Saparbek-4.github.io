@@ -374,18 +374,18 @@ footer .footer_links .footer_links_sub a {
         
     }
     .main .main_main {
-        font-size: 10px;
+        font-size: 13px;
     }
     .main .main_logo {
-        font-size: 10px;
+        font-size: 13px;
     }
 
     .main .main_help {
-        font-size: 10px;
+        font-size: 13px;
     }
     .main .main_exit, .main_sign {
         margin-top: 5.7px;
-        font-size: 10px;
+        font-size: 13px;
         border: none; 
     }
 
@@ -396,16 +396,16 @@ footer .footer_links .footer_links_sub a {
     }
 
     form h1 {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .search {
-        width: 65%;
-        font-size: 7px;
+        width: 70%;
+        font-size: 8px;
     }
     .submit {
-        width: 55px;
-        font-size: 5px;
+        width: 70px;
+        font-size: 7px;
     }
 
     .vacancy {
@@ -420,12 +420,12 @@ footer .footer_links .footer_links_sub a {
     }
 
     .vacancy .vacancy_btn .vacancy_text {
-        font-size: 10px;
+        font-size: 12px;
     }
 
 
     .vacancy .vacancy_btn .vacancy_price {
-        font-size: 5px;
+        font-size: 8px;
     }
 
     footer {
